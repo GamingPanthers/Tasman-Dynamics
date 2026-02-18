@@ -16,7 +16,7 @@ Departing from standard re-textures, TasDyn integrates custom flight dynamics an
 
 ## 📂 Corporate Identity (Lore)
 
-> **EST. 2025**
+> **EST. 2026**
 >
 > Originally founded as a specialized aerospace consultancy, **Tasman Dynamics** has grown into a premier defense contractor for the Pacific Rim. Specializing in heavy-lift logistics, experimental VTOL airframes, and advanced vehicle systems, TasDyn bridges the gap between rugged durability and next-gen aerodynamics.
 >
@@ -95,12 +95,12 @@ To view the full text of the license, visit: [https://www.bohemia.net/community/
 * **NO RE-UPLOADS:** Re-uploading this mod to the Steam Workshop or other platforms as a standalone item without significant modification and permission is strictly prohibited.
 * **NOT OFFICIAL:** This add-on is not made by, sponsored by, or affiliated with Bohemia Interactive.
 
-&copy; 2024-2035 Tasman Dynamics. All Rights Reserved.
+&copy; 2026 Tasman Dynamics. All Rights Reserved.
 
 <div align="center">
 
  Website  •  Discord  •  Steam 
 
-© 2035 Tasman Dynamics. All Rights Reserved.
+© 2026 Tasman Dynamics. All Rights Reserved.
 
 </div>
