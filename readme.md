@@ -1,10 +1,11 @@
 # ![Tasman Dynamics Logo](https://placehold.co/800x200/1a1a1a/dba506?text=TASMAN+DYNAMICS&font=montserrat)
 
-> **Force in Motion.**
+> **"Force in Motion."**
 
 ![Arma 3](https://img.shields.io/badge/Arma%203-Platform-black?style=for-the-badge&logo=arma3)
-![Version](https://img.shields.io/badge/Version-0.1.0-blue?style=for-the-badge)
-![License](https://img.shields.io/badge/License-APL--SA-orange?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Pre--Alpha-orange?style=for-the-badge)
+![Build](https://img.shields.io/badge/Build-HEMTT-blue?style=for-the-badge)
+![License](https://img.shields.io/badge/License-APL--SA-CD6155?style=for-the-badge)
 
 ## 📡 Mission Profile
 
@@ -16,7 +17,7 @@ Departing from standard re-textures, TasDyn integrates custom flight dynamics an
 
 ## 📂 Corporate Identity (Lore)
 
-> **EST. 2026**
+> **EST. 2026, Hobart**
 >
 > Originally founded as a specialized aerospace consultancy, **Tasman Dynamics** has grown into a premier defense contractor for the Pacific Rim. Specializing in heavy-lift logistics, experimental VTOL airframes, and advanced vehicle systems, TasDyn bridges the gap between rugged durability and next-gen aerodynamics.
 >
@@ -24,53 +25,58 @@ Departing from standard re-textures, TasDyn integrates custom flight dynamics an
 
 ---
 
-## 🛠️ Technical Capabilities
+## 🛠️ Active Project: "The Roc"
 
-### 1. Aerospace Division (Current Focus)
-* **Project [REDACTED]:** Next-generation Heavy Lift VTOL.
-* **Advanced Flight Model (AFM):** Custom rotorlib configurations for realistic lift/drag ratios.
-* **Logistics Systems:** Native sling-loading and cargo-in-vehicle support.
+**The Roc** is the flagship airframe of the Tasman Dynamics Aerospace Division. It is a strategic heavy-lift VTOL designed to bridge the gap between the tactical V-44 Blackfish and the strategic C-17 Globemaster III.
 
-### 2. Land Systems (In Development)
-* **AFV Platforms:** High-torque, all-terrain chassis designed for steep inclines and loose terrain.
-* **Active Protection Systems:** Scripted countermeasures for modern threat environments.
+### Technical Specifications
+* **Role:** Strategic Heavy Lift / Airborne Deployment
+* **Length:** 53 meters (Approx. C-17 Scale)
+* **Mass:** ~128,000 kg (Projected)
+* **Capacity:** Main Battle Tanks (MBT) or multiple APCs via *Vehicle-in-Vehicle* (ViV).
 
-### 3. Maritime Operations (Planned)
-* **Littoral Combat:** High-speed interdiction craft and amphibious deployment solutions.
-
----
-
-## 📥 Installation
-
-### Method 1: Steam Workshop (Recommended)
-1. Subscribe to the mod on the [Steam Workshop](YOUR_LINK_HERE).
-2. Enable **Tasman Dynamics** in the Arma 3 Launcher.
-
-### Method 2: Manual Installation (Dev Build)
-1. Download the latest release from the `Releases` tab.
-2. Extract the `@TasmanDynamics` folder to your Arma 3 root directory.
-3. Add `@TasmanDynamics` to your launch parameters or enable via "Local Mod" in the launcher.
+### Key Features (In Development)
+* **Strategic Scale:** A fuselage capable of swallowing a Slammer MBT whole.
+* **Walkable Interior:** Full "Roadway" LOD allowing crew to move freely in the cargo bay during flight.
+* **Airborne Ops:** Specialized rear-ramp geometry designed for HAHO/HALO paratrooper operations.
+* **Advanced Physics:** A flight model that respects inertia—this is not a humming bird; it requires pilot discipline.
 
 ---
 
-## 🔧 Dependencies
-* **Community Based Addons (CBA_A3)** - Required for keybinds and scripting systems.
-* *(List any other dependencies here, e.g., ACE3)*
+## 🗺️ Roadmap
+**Tasman Dynamics** is executing a phased development cycle for *The Roc*:
+
+- [x] **Phase 1: Concept & Import** (Static Mesh Integration)
+- [ ] **Phase 2: Physics & Scaling** (Geometry LODs, Mass configuration)
+- [ ] **Phase 3: Logistics** (Roadway LODs, Vehicle-in-Vehicle paths)
+- [ ] **Phase 4: Flight Dynamics** (Rotorlib, Ramp Animation, Landing Gear)
+- [ ] **Phase 5: Polish** (Texturing, Sounds, Particle Effects)
 
 ---
 
-## 🤝 Contributing & Development
+## 📥 Installation & Development
 
-We welcome collaboration from the open-source community.
-* **Issue Tracking:** Please report bugs or request features via the [Issues](../../issues) tab.
-* **Pull Requests:** Submit PRs to the `dev` branch. Ensure config standards comply with BIS guidelines.
+This project uses **HEMTT** (Heavy Equipment Modding Toolset) for building and packaging.
 
-### Building from Source
-To build the PBOs from the source files:
-```bash
-# Example build command if you use HEMTT or Mikero tools
-hemtt build --release
-```
+### 🧑‍💻 For Developers (Source)
+1.  **Prerequisites:** Install [Arma 3 Tools](https://store.steampowered.com/app/233800/Arma_3_Tools/) and place `hemtt.exe` in the project root.
+2.  **Clone:**
+    ```bash
+    git clone [https://github.com/Andrew/The-Roc.git](https://github.com/Andrew/The-Roc.git)
+    ```
+3.  **Build & Launch:**
+    Run the following command to build a dev version and launch Arma 3 automatically:
+    ```powershell
+    hemtt launch
+    ```
+
+### 🎮 For Players (Manual Install)
+*Note: This mod is currently in **Pre-Alpha**. It is not yet available on Steam Workshop.*
+
+1.  Download the latest release from the **Releases** tab.
+2.  Extract the `@TasmanDynamics` folder to your Arma 3 root directory.
+3.  Add `@TasmanDynamics` to your launcher parameters.
+
 ---
 
 ## ⚖️ License & Legal
@@ -95,12 +101,8 @@ To view the full text of the license, visit: [https://www.bohemia.net/community/
 * **NO RE-UPLOADS:** Re-uploading this mod to the Steam Workshop or other platforms as a standalone item without significant modification and permission is strictly prohibited.
 * **NOT OFFICIAL:** This add-on is not made by, sponsored by, or affiliated with Bohemia Interactive.
 
-&copy; 2026 Tasman Dynamics. All Rights Reserved.
-
 <div align="center">
 
- Website  •  Discord  •  Steam 
-
-© 2026 Tasman Dynamics. All Rights Reserved.
+&copy; 2026 Tasman Dynamics. All Rights Reserved.
 
 </div>
