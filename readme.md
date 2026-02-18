@@ -70,3 +70,37 @@ To build the PBOs from the source files:
 ```bash
 # Example build command if you use HEMTT or Mikero tools
 hemtt build --release
+```
+---
+
+## ⚖️ License & Legal
+
+**Tasman Dynamics** is licensed under the **Arma Public License Share Alike (APL-SA)**.
+
+To view the full text of the license, visit: [https://www.bohemia.net/community/licenses/arma-public-license-share-alike](https://www.bohemia.net/community/licenses/arma-public-license-share-alike)
+
+### 🟢 You are free to:
+* **Share:** Copy and redistribute the material in any medium or format.
+* **Adapt:** Remix, transform, and build upon the material.
+
+### 🔴 Under the following terms:
+* **Attribution:** You must give appropriate credit to **Tasman Dynamics**, provide a link to the license, and indicate if changes were made.
+* **NonCommercial:** You may not use this material for commercial purposes (including monetized servers) without explicit permission.
+* **ShareAlike:** If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
+* **Arma Only:** This material may not be converted or used outside of the Arma platform.
+
+---
+
+### ⚠️ Disclaimer
+* **NO RE-UPLOADS:** Re-uploading this mod to the Steam Workshop or other platforms as a standalone item without significant modification and permission is strictly prohibited.
+* **NOT OFFICIAL:** This add-on is not made by, sponsored by, or affiliated with Bohemia Interactive.
+
+&copy; 2024-2035 Tasman Dynamics. All Rights Reserved.
+
+<div align="center">
+
+ Website  •  Discord  •  Steam 
+
+© 2035 Tasman Dynamics. All Rights Reserved.
+
+</div>
